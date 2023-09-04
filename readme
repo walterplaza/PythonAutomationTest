@@ -1,0 +1,7 @@
+Project use class method factory pattern.
+Page Objects classes contains pages web elements locators and methods to action on them.
+
+## web element
+When a page element is call it, the element is wrapped in a wrapper class instance.
+The instance of the wrapper class will associate the element with the current driver session each time that an
+action of that element is call.
